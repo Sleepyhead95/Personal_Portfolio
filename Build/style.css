@@ -1,0 +1,123 @@
+
+@font-face {
+    font-family: 'MonaKo';
+    src: url(./Fonts/MonaKo.ttf);
+}
+ @font-face {
+    font-family: 'Balkeno';
+    src: url(./Fonts/Balkeno.ttf);
+ }
+
+html {
+    font-size: 16px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F6FCFC;
+    margin: 0;
+    padding: 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template: 5% 150% / 78% 22%;
+}
+
+/* HEADER Section*/
+.header-container {
+    grid-area: 1 / span 1 / 1 / span 1;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    width: 73%;
+    margin-top: 2%;
+}
+
+.my-name {
+    display: flex;
+    margin-left: 5%;
+    align-items: center;
+}
+
+.my-name a {
+    text-decoration: none;
+    color: #464444;
+    font-size: 1.6rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.nav-bar {
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+    gap: 8%;
+    align-items: center;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: #464444;
+    font-size: 1.3rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.nav-bar a:hover,
+.nav-bar a:focus {
+    text-transform: uppercase;
+    font-weight: 700;
+    transition: all ease 0.18s;
+}
+
+.main-container {
+    grid-row: 2 / span 1;
+    width: 100%;
+    display: flex;
+}
+
+.arch-background {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+    background-image: url("./Images/yellow-arch-background.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 90%;
+    max-width: 90%;
+   
+}
+
+.arch-background img {
+    width: 70%;
+} 
+
+ h1 {
+    font-family: 'MonaKo', sans-serif;
+    font-size: 5rem;
+    text-transform: uppercase;
+    line-height: 0;
+}
+
+h2 {
+    font-family: 'MonaKo', sans-serif;
+    font-size: 3rem;
+}
+
+.shapes-container {
+    grid-column: 2 / span 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.shapes-container img {
+    width: 90%;
+}

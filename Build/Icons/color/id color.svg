@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400.5 400.5">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ff1f6b;
+      }
+
+      .cls-2 {
+        fill: #400023;
+      }
+    </style>
+  </defs>
+  <g id="Layer_17" data-name="Layer 17">
+    <rect class="cls-1" x="27.11" y="65.25" width="341" height="269"/>
+  </g>
+  <g id="Layer_9" data-name="Layer 9">
+    <g id="_4_InDesign_Adobe" data-name="4, InDesign, Adobe">
+      <g>
+        <path class="cls-2" d="M211.86,225.72c0,44.72,28.14,48.77,37.34,48.77s13.24-1.71,13.24-1.71v-93.17s-2.65-2.18-10.44-2.18c-7.79,0-40.14,3.58-40.14,48.3Z"/>
+        <path class="cls-2" d="M.11,.25V400.25H400.11V.25H.11ZM137.78,299.44h-33.6V98.89h33.6v200.54Zm158.27-8.49s-16.05,11.8-50.07,11.8c-46.19,0-67.9-32.48-67.9-75.42,0-55.54,40.62-77.49,74.24-77.49h10.13v-50.95h33.6v192.06Z"/>
+      </g>
+    </g>
+  </g>
+</svg>
