@@ -68,8 +68,7 @@ body {
 .nav-bar a:hover,
 .nav-bar a:focus {
     text-transform: uppercase;
-    font-weight: 700;
-    transition: all ease 0.18s;
+    transition: all ease 0.2s;
 }
 
 .main-container {
@@ -83,30 +82,36 @@ body {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    margin-top: 5%;
-    background-image: url("./Images/yellow-arch-background.svg");
-    background-size: cover;
+    background-image: url(./Images/yellow-arch-background.svg);
     background-repeat: no-repeat;
+    background-size: cover;
     height: 100vh;
     width: 90%;
-    max-width: 90%;
-   
+    margin-top: 5%;
+    margin-left: 5%;
 }
-
-.arch-background img {
-    width: 70%;
-} 
 
  h1 {
     font-family: 'MonaKo', sans-serif;
-    font-size: 5rem;
+    font-size: 6.5rem;
     text-transform: uppercase;
-    line-height: 0;
+    line-height: 0.4;
+    z-index: 1;
+    text-align: center;
+}
+
+.janka {
+    margin-bottom: 40%;
+}
+
+.hello {
+    margin-bottom: 10%
 }
 
 h2 {
     font-family: 'MonaKo', sans-serif;
-    font-size: 3rem;
+    font-size: 2.7rem;
+    margin-bottom: 30%;
 }
 
 .shapes-container {
