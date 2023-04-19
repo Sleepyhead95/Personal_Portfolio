@@ -15,8 +15,7 @@
 </head>
 <body>
     <div class="grid-container">
-    <section>
-        <div class="header-container">
+        <header>
             <div class="my-name">
                 <a href="#welcome-text">Janka Antalová</a>
             </div>
@@ -25,20 +24,25 @@
                 <a href="#">Projects</a>
                 <a href="#">Contact</a>
             </div>
-        </div>
-    </section>
-        <div class="main-container">
+        </header>
+
+        <main>
             <div class="arch-background">
                 <div id="welcome-text">
-                    <h1 class="hello">Hello,</h1>
+                    <h1 id="hello">Hello,</h1>
                     <h1 class="janka"> I'm Janka</h1>
-                    <h2>Welcome to my portfolio</h2>
+                    <h2>Front-End Developer $ Graphic Designer</h2>
                 </div>
                 <div class="explore-button">
                     <button>Explore</button>
                 </div>
+                <div class="about-me">
+                    <h2>About me</h2>
+                    <p>TEXT</p>
+                </div>
             </div>        
-        </div>
+        </main>
+        
         <div class="shapes-container">
             <img src="./Images/blue-triangle.svg" alt="">
             <img src="./Images/pink-wiggle.svg" alt="">
@@ -47,6 +51,94 @@
             <img src="./Images/green-star.svg" alt="">
             <img src="./Images/pink-hexagon.svg" alt="">
         </div>
+
+        <section>
+            <div class="projects">
+                <h2>My Projects</h2>
+                <div>
+                    <h3>Programming</h3>
+                    <div class="project1">
+                        <span class="project-title">Project 1(name)</span>
+                        <span class="arrow" onclick="toggleProjectDetails(event)"></span>
+                    </div>
+                    <div class="project-details">
+                        <p>Project 1 details are as follows...</p>
+                    </div>
+                    <div class="project2">
+                        <span class="project-title">Project 1(name)</span>
+                        <span class="arrow" onclick="toggleProjectDetails(event)"></span>
+                    </div>
+                    <div class="project-details">
+                        <p>Project 2 details are as follows...</p>
+                    </div>
+                    <div class="project3">
+                        <span class="project-title">Project 1(name)</span>
+                        <span class="arrow" onclick="toggleProjectDetails(event)"></span>
+                    </div>
+                    <div class="project-details">
+                        <p>Project 3 details are as follows...</p>
+                    </div>
+                    <div class="project4">
+                        <span class="project-title">Project 1(name)</span>
+                        <span class="arrow" onclick="toggleProjectDetails(event)"></span>
+                    </div>
+                    <div class="project-details">
+                        <p>Project 4 details are as follows...</p>
+                    </div>
+                    <div class="project5">
+                        <span class="project-title">Project 1(name)</span>
+                        <span class="arrow" onclick="toggleProjectDetails(event)"></span>
+                    </div>
+                    <div class="project-details">
+                        <p>Project 5 details are as follows...</p>
+                    </div>
+                </div>
+
+                <div>
+                    <h3>Graphic Design</h3>
+                    <div class="project1">
+                        <span class="project-title">Project 1(name)</span>
+                        <span class="arrow" onclick="toggleProjectDetails(event)"></span>
+                    </div>
+                    <div class="project-details">
+                        <p>Project 1 details are as follows...</p>
+                    </div>
+                    <div class="project2">
+                        <span class="project-title">Project 1(name)</span>
+                        <span class="arrow" onclick="toggleProjectDetails(event)"></span>
+                    </div>
+                    <div class="project-details">
+                        <p>Project 2 details are as follows...</p>
+                    </div>
+                    <div class="project3">
+                        <span class="project-title">Project 1(name)</span>
+                        <span class="arrow" onclick="toggleProjectDetails(event)"></span>
+                    </div>
+                    <div class="project-details">
+                        <p>Project 3 details are as follows...</p>
+                    </div>
+                    <div class="project4">
+                        <span class="project-title">Project 1(name)</span>
+                        <span class="arrow" onclick="toggleProjectDetails(event)"></span>
+                    </div>
+                    <div class="project-details">
+                        <p>Project 4 details are as follows...</p>
+                    </div>
+                    <div class="project5">
+                        <span class="project-title">Project 1(name)</span>
+                        <span class="arrow" onclick="toggleProjectDetails(event)"></span>
+                    </div>
+                    <div class="project-details">
+                        <p>Project 5 details are as follows...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="skills">
+
+            </div>
+        </section>
+
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
