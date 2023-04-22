@@ -186,3 +186,15 @@ button:hover {
   }
 
   
+  #icon-container {
+    width: 100%;
+    max-width: 300px;
+    height: 0;
+    padding-bottom: 100%;
+    background-image: url('./Icons/b&w/html icon.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: background-image 0.3s ease-in-out;
+
+  }

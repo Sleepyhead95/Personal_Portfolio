@@ -16,3 +16,14 @@ function toggleProjectDetails(event) {
   const projectDetails = project.nextElementSibling;
   projectDetails.style.display = projectDetails.style.display === 'block' ? 'none' : 'block';
 }
+
+const iconContainer = document.getElementById('icon-container');
+    const colorfulImage = iconContainer.getAttribute('data-colorful');
+
+    iconContainer.addEventListener('mouseover', () => {
+      iconContainer.style.backgroundImage = `url(${colorfulImage})`;
+    });
+
+    iconContainer.addEventListener('mouseout', () => {
+      iconContainer.style.backgroundImage = "url('black-and-white-image.jpg')";
+    });
