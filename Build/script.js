@@ -1,3 +1,4 @@
+// Function to add animation to Hello
 const textElement = document.getElementById('hello');
 const text = textElement.textContent;
 let animatedText = '';
@@ -10,6 +11,7 @@ for (let i = 0; i < text.length; i++) {
 
 textElement.innerHTML = animatedText;
 
+// Function to toggle project details
 function toggleProjectDetails(event) {
   const arrow = event.currentTarget;
   const project = arrow.parentElement;
@@ -17,13 +19,17 @@ function toggleProjectDetails(event) {
   projectDetails.style.display = projectDetails.style.display === 'block' ? 'none' : 'block';
 }
 
-const iconContainer = document.getElementById('icon-container');
-    const colorfulImage = iconContainer.getAttribute('data-colorful');
+// Function to make images appear on hover
+const wrappers = document.querySelectorAll('.wrapper');
 
-    iconContainer.addEventListener('mouseover', () => {
-      iconContainer.style.backgroundImage = `url(${colorfulImage})`;
-    });
+wrappers.forEach((wrapper) => {
+  const colorfulImage = wrapper.querySelector('.colorful');
 
-    iconContainer.addEventListener('mouseout', () => {
-      iconContainer.style.backgroundImage = "url('black-and-white-image.jpg')";
-    });
+  wrapper.addEventListener('mouseover', () => {
+    colorfulImage.style.opacity = 1;
+  });
+
+  wrapper.addEventListener('mouseout', () => {
+    colorfulImage.style.opacity = 0;
+  });
+});

@@ -186,15 +186,24 @@ button:hover {
   }
 
   
-  #icon-container {
+  .wrapper {
+    position: relative;
+    display: inline-block;
     width: 100%;
     max-width: 300px;
-    height: 0;
-    padding-bottom: 100%;
-    background-image: url('./Icons/b&w/html icon.svg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    transition: background-image 0.3s ease-in-out;
-
+    padding-bottom: 75%;
+  }
+  
+  .wrapper img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .wrapper img.colorful {
+    opacity: 0;
   }
