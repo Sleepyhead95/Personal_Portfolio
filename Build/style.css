@@ -20,7 +20,7 @@ body {
 
 .grid-container {
     display: grid;
-    grid-template: 5% 50% 50% / 78% 22%;
+    grid-template: 5% 60% 50% / 78% 22%;
 }
 
 /* HEADER Section*/
@@ -190,12 +190,31 @@ section {
 }
 .projects-container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-evenly; /* check this */
 }
 
 .programming-projects, .design-projects {
     display: flex;
     flex-direction: column;
+}
+
+.programming-projects h3, .design-projects h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #464444;
+}
+
+.project-title {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.3rem;
+    color: #464444;
+}
+
+p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.1rem;
+    color: #464444;
 }
 
 .arrow {
@@ -227,8 +246,9 @@ section {
   .wrapper {
     position: relative;
     display: inline-block;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
   }
   
   .wrapper img {
