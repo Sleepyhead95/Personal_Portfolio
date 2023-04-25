@@ -3,10 +3,6 @@
     font-family: 'MonaKo';
     src: url(./Fonts/MonaKo.ttf);
 }
- @font-face {
-    font-family: 'Balkeno';
-    src: url(./Fonts/Balkeno.ttf);
- }
 
 html {
     font-size: 16px;
@@ -24,7 +20,7 @@ body {
 
 .grid-container {
     display: grid;
-    grid-template: 5% 150% / 78% 22%;
+    grid-template: 5% 50% 50% / 78% 22%;
 }
 
 /* HEADER Section*/
@@ -173,6 +169,35 @@ button:hover {
     width: 90%;
 }
 
+/* Projects and Skills section, bottom */
+section {
+    grid-area: 3 / 1 / span 1 / span 2;
+    display: flex;
+    width: 100%;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+}
+
+.projects h2 {
+    font-family: 'MonaKo', sans-serif;
+    font-size: 2.2rem;
+    text-align: center;
+}
+.projects-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.programming-projects, .design-projects {
+    display: flex;
+    flex-direction: column;
+}
+
 .arrow {
     display: inline-block;
     width: 11px;
@@ -185,13 +210,25 @@ button:hover {
     transform: translateY(0) rotate(-45deg);
   }
 
+.skills {
+   /* this one needs the yellow arch background */
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   width: 40%;
+}
+
+.skills-icons {
+    display: flex; 
+    width: 40%;
+    /* for some reason, keeps them in a column, not inline */
+}
   
   .wrapper {
     position: relative;
     display: inline-block;
-    width: 100%;
-    max-width: 300px;
-    padding-bottom: 75%;
+    width: 40px;
+    height: 40px;
   }
   
   .wrapper img {
@@ -202,6 +239,7 @@ button:hover {
     height: 100%;
     object-fit: cover;
     transition: opacity 0.3s ease-in-out;
+    /* add property where the cursor hover displays the content in a text box */
   }
   
   .wrapper img.colorful {
