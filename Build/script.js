@@ -33,3 +33,17 @@ wrappers.forEach((wrapper) => {
     colorfulImage.style.opacity = 0;
   });
 });
+
+const wrappers = document.querySelectorAll('.wrapper');
+
+wrappers.forEach((wrapper) => {
+  const colorfulImage = wrapper.querySelector('.colorful');
+
+  wrapper.addEventListener('mouseover', () => {
+    colorfulImage.style.opacity = 1;
+  });
+
+  wrapper.addEventListener('mouseout', () => {
+    colorfulImage.style.opacity = 0;
+  });
+});
