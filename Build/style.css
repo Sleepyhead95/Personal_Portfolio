@@ -91,7 +91,6 @@ li:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 15rem;
     height: 90vh;
     width: 100%;
 }
@@ -117,6 +116,10 @@ li:hover {
     font-size: 3.75rem;
     font-weight: 100;
     color: #464444;
+}
+.landing > div:nth-child(2) {
+    position: relative;
+    top: 10rem;
 }
 .arrow img {
     width: 50px;
