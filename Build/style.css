@@ -19,7 +19,6 @@ body {
 
 header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     height: 6rem;
     width: 100%;
@@ -48,6 +47,7 @@ header {
     height: 3rem;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 nav {
