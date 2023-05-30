@@ -85,12 +85,11 @@ li:hover {
     cursor: pointer;
 }
 
-
+/* ------------- LANDING PAGE ------------- */
 .landing {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-end;
+    align-items: flex-end;
     height: 100vh;
     width: 100%;
 }
@@ -98,9 +97,32 @@ li:hover {
 .landing-text {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 70%;
+    margin: 0 5rem 5rem 5rem;
+}
+
+.landing-button {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 30%;
+    margin: 0 5rem 15rem 0;
+}
+
+.landing-button button {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #464444;
+    background-color: hsl(54, 86, 81, 0.5);
+    border: 1px solid #464444;
+    border-radius: 50px;
+    width: 35rem;
+    height: 3rem;
+    margin: 0;
+    padding: 0.2rem 1.3rem 0;
 }
 
 .landing-text h1 {
@@ -111,12 +133,20 @@ li:hover {
     line-height: 0;
 }
 
-.landing-text span {
+.landing-text p {
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 3.75rem;
-    font-weight: 100;
+    font-size: 1.6rem;
+    font-weight: 200;
     color: #464444;
+    margin: 0.5rem;
 }
+#sound {
+    font-weight: 600;
+}
+.noun {
+    font-style: italic;
+}
+
 .landing > div:nth-child(2) {
     position: relative;
     top: 10rem;
