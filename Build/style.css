@@ -139,6 +139,14 @@ li:hover {
     padding: 0.2rem 1.3rem 0;
 }
 
+.landing-button button:hover {
+    cursor: pointer;
+    background-color: transparent;
+    color: #464444;
+    transform: scale(1.05);
+    font-weight: 600;
+}
+
 .landing-text h1 {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 8.75rem;
