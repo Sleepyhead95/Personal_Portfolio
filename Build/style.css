@@ -265,8 +265,9 @@ main {
     padding: 2.5rem 3rem;
 }
 
-.lets-connect {
+#lets-connect {
     font-weight: 600;
+    font-size: 1.2rem;
 }
 
 .work-contact h3 {
@@ -339,5 +340,20 @@ main {
 }
 
 .programming {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
 
+.graphic-design {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+p span {
+    font-weight: 500;
+    font-size: 1.8rem;
 }
