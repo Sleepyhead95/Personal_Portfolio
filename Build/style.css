@@ -172,6 +172,23 @@ li:hover {
     position: relative;
     top: 10rem;
 }
+
+.highlight {
+    display: inline;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 0% 100%;
+    background-image: linear-gradient(#FBFBFB, #FBFBFB);
+    animation: highlight 3s forwards 1s;
+   
+}
+
+@keyframes highlight{
+    to {
+        background-size: 100% 100%;
+    }
+}
+
 /* fix arrow 
 .arrow {
    display: flex;
