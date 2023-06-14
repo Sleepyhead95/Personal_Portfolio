@@ -202,15 +202,9 @@ main {
     margin: 2rem 0 10rem 15rem;
 }
 
-.me p {
-    font-size: 2rem;
-}
-
 .my-picture {
-    width: 350px;
-    height: 400px;
-    border-radius: 42%;
-    border: 1px solid #464444;
+    width: 480px;
+    height: 500px;
 }
 
 .line {
