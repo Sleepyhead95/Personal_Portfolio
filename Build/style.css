@@ -398,6 +398,13 @@ main {
     text-align: center;
     margin-bottom: 2rem;
 }
+
+.programming {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
 .programming h3 {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1.7rem;
@@ -424,21 +431,12 @@ main {
     transform: scale(1.1);
 }
 
-
-
 .project-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
     margin: 0 0 5rem 0;
-}
-
-.programming {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
 }
 
 .graphic-design {
@@ -451,4 +449,32 @@ main {
  li span{
     font-weight: 400;
     font-size: 2.8rem;
+}
+
+.graphic-design h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.7rem;
+    font-weight: 400;
+    color: #464444;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.graphic-design ol {
+    text-decoration: none;
+    padding: 0;
+}
+
+.graphic-design li {
+    list-style: none;
+    margin: 0 0 1rem 0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 200;
+    color: #464444;
+}
+
+.graphic-design li:hover {
+    cursor: pointer;
+    transform: scale(1.1);
 }
