@@ -364,6 +364,13 @@ main {
 .skills-icon img {
     width: 3rem;
     height: 3rem;
+    position: absolute;
+    z-index: 1;
+    margin: 0.5rem;
+}
+
+.colorful {
+    position: absolute;
 }
 
 .certificate {
