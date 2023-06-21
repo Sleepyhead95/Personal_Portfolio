@@ -27,7 +27,7 @@ p {
 }
 
 /* ---------------- HEADER ----------------- */
-header {
+#header {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -35,6 +35,7 @@ header {
     width: 100%;
     padding: 2.5rem 2rem;
     position: fixed;
+    z-index: 999;
 }
 
 .my-name {
@@ -45,6 +46,7 @@ header {
     display: flex;
     align-items: center;
     padding: 0.2rem 1.3rem 0;
+    backdrop-filter: blur(7px);
 }
 
 .my-name p {
@@ -79,6 +81,7 @@ nav {
     border-radius: 50px;
     height: 3rem;
     padding: 0.2rem 1.3rem 0;
+    backdrop-filter: blur(7px);
 }
 
 .nav-links a {

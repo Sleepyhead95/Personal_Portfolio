@@ -34,3 +34,13 @@ wrappers.forEach((wrapper) => {
   });
 });
 
+// Function to blur header on scroll
+window.addEventListener('scroll', function() {
+  var header = document.getElementById('header');
+  if(window.scrollY > header.offsetHeight) {
+    header.classList.add('blur');
+  } else {
+    header.classList.remove('blur');
+  }
+});
+
