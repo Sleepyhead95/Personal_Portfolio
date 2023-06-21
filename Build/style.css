@@ -46,7 +46,7 @@ p {
     display: flex;
     align-items: center;
     padding: 0.2rem 1.3rem 0;
-    backdrop-filter: blur(7px);
+    backdrop-filter: blur(10px);
 }
 
 .my-name p {
@@ -81,7 +81,7 @@ nav {
     border-radius: 50px;
     height: 3rem;
     padding: 0.2rem 1.3rem 0;
-    backdrop-filter: blur(7px);
+    backdrop-filter: blur(10px);
 }
 
 .nav-links a {
