@@ -98,8 +98,7 @@ nav {
 
 .nav-links li:hover {
     cursor: pointer;
-    text-decoration: underline #464444 3px;
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 /* ---------------- LANDING PAGE ---------------- */
@@ -380,7 +379,7 @@ main {
     margin-top: 0.5rem;
 }
 
-#wrapper {
+.wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
