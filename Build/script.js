@@ -19,20 +19,6 @@ function toggleProjectDetails(event) {
   projectDetails.style.display = projectDetails.style.display === 'block' ? 'none' : 'block';
 }
 
-// Function to make images appear on hover
-const wrappers = document.querySelectorAll('.wrapper');
-
-wrappers.forEach((wrapper) => {
-  const colorfulImage = wrapper.querySelector('.colorful');
-
-  wrapper.addEventListener('mouseover', () => {
-    colorfulImage.style.opacity = 1;
-  });
-
-  wrapper.addEventListener('mouseout', () => {
-    colorfulImage.style.opacity = 0;
-  });
-});
 
 // Function to blur header on scroll
 window.addEventListener('scroll', function() {
