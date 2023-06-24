@@ -490,7 +490,8 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 100%;
+    margin-top: 11rem;
 }
 
 .projects-container h2 {
@@ -502,11 +503,19 @@ main {
     margin-bottom: 2rem;
 }
 
+.project-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
 .programming {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
 }
 .programming h3 {
     font-family: 'Josefin Sans', sans-serif;
@@ -534,19 +543,12 @@ main {
     transform: scale(1.1);
 }
 
-.project-wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    margin: 0 0 5rem 0;
-}
-
 .graphic-design {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
 }
 
  li span{
