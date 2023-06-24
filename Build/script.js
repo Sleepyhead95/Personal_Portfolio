@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
   const span = document.getElementById("close");
 
   btn.addEventListener('click', function() {
-      modal.style.display = "block";
+      modal.style.display = "flex";
   })
 
   span.addEventListener('click', function() {
