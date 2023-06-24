@@ -525,6 +525,74 @@ main {
     text-align: center;
     margin-bottom: 1.5rem;
 }
+
+.inner-project-wrapper {
+    height: 300px;
+  width: 600px;
+  margin: 50px 0;
+  
+  display: flex;
+  flex-direction: row;
+  
+  transition: all 200ms ease-in-out;
+}
+
+.project-img-wrapper {
+    height: 300px;
+  width: 450px;
+  overflow: hidden;
+  border-radius: 5px;
+  cursor: pointer;
+
+  transition: all 200ms ease-in-out;
+}
+
+.project-text {
+    display: flex;
+  flex-direction: column;
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  left: 380px;
+  transition: all 200ms ease-in-out;
+  overflow: hidden;
+}
+
+.project-text h1 {
+    position: relative;
+  bottom: 0;
+  height: 300px;
+  color: #fff;
+  font-size: 80px;
+  font-family: Oswald;
+  text-transform: uppercase;
+  
+  transition: all 200ms ease-in-out;
+} 
+
+.project-img-wrapper img {
+    height: 300px;
+  width: 450px;
+  object-fit: cover;
+  object-position: top;
+  
+  transition: all 200ms ease-in-out;
+}
+
+.inner-project-wrapper:hover img {
+  transform: scale(2);
+  /*object-position: bottom;*/
+}
+
+.inner-project-wrapper:hover h1 {
+  bottom: 300px;
+  transform: scale(.4);
+}
+
+.inner-project-wrapper:hover .project-img-wrapper {
+  width: 800px;
+}
+
 .programming ol {
     text-decoration: none;
     padding: 0;
