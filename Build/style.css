@@ -138,6 +138,7 @@ nav {
     justify-content: flex-end;
     align-items: flex-end;
     width: 30%;
+    margin-top: 2rem;
 }
 
 .landing-button button {
@@ -172,6 +173,7 @@ nav {
 }
 
 .landing-text p {
+    width: 75%;
     font-size: 1.6rem;
     font-weight: 200;
     margin: 0.5rem;
