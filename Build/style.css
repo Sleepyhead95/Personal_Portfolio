@@ -561,59 +561,59 @@ main {
 
 .inner-project-wrapper {
     height: 300px;
-  width: 600px;
-  margin: 50px 0;
+    width: 600px;
+    margin: 50px 0;
   
-  display: flex;
-  flex-direction: row;
+    display: flex;
+    flex-direction: row;
   
-  transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
 }
 
 .project-img-wrapper {
     height: 300px;
-  width: 450px;
-  overflow: hidden;
-  border-radius: 5px;
-  cursor: pointer;
+    width: 450px;
+    overflow: hidden;
+    border-radius: 5px;
+    cursor: pointer;
 
-  transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
 }
 
 .project-text {
     display: flex;
-  flex-direction: column;
-  position: absolute;
-  height: 300px;
-  width: 300px;
-  left: 380px;
-  transition: all 200ms ease-in-out;
-  overflow: hidden;
+    flex-direction: column;
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    left: 380px;
+    transition: all 200ms ease-in-out;
+    overflow: hidden;
 }
 
 .project-text h1 {
     position: relative;
-  bottom: 0;
-  height: 300px;
-  color: #fff;
-  font-size: 80px;
-  font-family: Oswald;
-  text-transform: uppercase;
+    bottom: 0;
+    height: 300px;
+    color: #464444;
+    font-size: 80px;
+    font-family: Oswald;
+    text-transform: uppercase;
   
-  transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
 } 
 
 .project-img-wrapper img {
     height: 300px;
-  width: 450px;
-  object-fit: cover;
-  object-position: top;
+    width: 450px;
+    object-fit: cover;
+    object-position: top;
   
-  transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
 }
 
 .inner-project-wrapper:hover img {
-  transform: scale(2);
+  transform: scale(1.5);
   /*object-position: bottom;*/
 }
 
@@ -624,24 +624,6 @@ main {
 
 .inner-project-wrapper:hover .project-img-wrapper {
   width: 800px;
-}
-
-.programming ol {
-    text-decoration: none;
-    padding: 0;
-}
-.programming li {
-    list-style: none;
-    margin: 0 0 1rem 0;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 1.4rem;
-    font-weight: 200;
-    color: #464444;
-}
-
-.programming li:hover {
-    cursor: pointer;
-    transform: scale(1.1);
 }
 
 .graphic-design {
@@ -666,24 +648,6 @@ main {
     margin-bottom: 1.5rem;
 }
 
-.graphic-design ol {
-    text-decoration: none;
-    padding: 0;
-}
-
-.graphic-design li {
-    list-style: none;
-    margin: 0 0 1rem 0;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 1.4rem;
-    font-weight: 200;
-    color: #464444;
-}
-
-.graphic-design li:hover {
-    cursor: pointer;
-    transform: scale(1.1);
-}
 
 
 /* ------------ FOOTER ------------- */
