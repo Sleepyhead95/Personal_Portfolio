@@ -569,12 +569,30 @@ main {
   
     transition: all 200ms ease-in-out;
 }
-
+.inner-design-wrapper {
+    height: 300px;
+    width: 600px;
+    margin: 50px 0 50px 50px;
+  
+    display: flex;
+    flex-direction: row;
+  
+    transition: all 200ms ease-in-out;
+}
 .project-img-wrapper {
     height: 300px;
     width: 450px;
     overflow: hidden;
-    border-radius: 5px;
+    border-radius: 50% / 100%;
+    cursor: pointer;
+
+    transition: all 200ms ease-in-out;
+}
+.design-img-wrapper {
+    height: 300px;
+    width: 450px;
+    overflow: hidden;
+    border-radius: 50% / 100%;
     cursor: pointer;
 
     transition: all 200ms ease-in-out;
@@ -587,6 +605,16 @@ main {
     height: 300px;
     width: 300px;
     left: 380px;
+    transition: all 200ms ease-in-out;
+    overflow: hidden;
+}
+.design-text {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    left: 1320px;
     transition: all 200ms ease-in-out;
     overflow: hidden;
 }
@@ -603,7 +631,28 @@ main {
     transition: all 200ms ease-in-out;
 } 
 
+.design-text h1 {
+    position: relative;
+    bottom: 0;
+    height: 300px;
+    color: #464444;
+    font-size: 80px;
+    font-family: Oswald;
+    text-transform: uppercase;
+  
+    transition: all 200ms ease-in-out;
+}
+
 .project-img-wrapper img {
+    height: 300px;
+    width: 450px;
+    object-fit: cover;
+    object-position: top;
+  
+    transition: all 200ms ease-in-out;
+}
+
+.design-img-wrapper img {
     height: 300px;
     width: 450px;
     object-fit: cover;
@@ -617,13 +666,26 @@ main {
   /*object-position: bottom;*/
 }
 
+.inner-design-wrapper:hover img {
+  transform: scale(1.5);
+  /*object-position: bottom;*/
+}
+
 .inner-project-wrapper:hover h1 {
   bottom: 300px;
   transform: scale(.4);
 }
 
+.inner-design-wrapper:hover h1 {
+  bottom: 300px;
+  transform: scale(.4);
+}
+
 .inner-project-wrapper:hover .project-img-wrapper {
-  width: 800px;
+  width: 550px;
+}
+.inner-design-wrapper:hover .design-img-wrapper {
+  width: 550px;
 }
 
 .graphic-design {
