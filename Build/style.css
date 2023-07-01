@@ -1,4 +1,7 @@
-
+@font-face {
+    font-family: 'Behila', sans-serif;
+    src: url(./Fonts/Behila_2.ttf);
+}
 html {
     font-size: 16px;
 }
@@ -164,8 +167,8 @@ nav {
 }
 
 .landing-text h1 {
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 8rem;
+    font-family: 'Behila', sans-serif;
+    font-size: 7rem;
     font-weight: 100;
     color: #464444;
     line-height: 0;
